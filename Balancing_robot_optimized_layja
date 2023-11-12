@@ -1,3 +1,6 @@
+#This is a balancing robot algorithm (code) which contains far less lines of code that the ones i found on internet. 
+#Every unnecessary step was deleted and the code is organized and well commented.
+
 #include <PID_v1.h>
 #include <LMotorController.h>
 #include "I2Cdev.h"
@@ -6,7 +9,7 @@
 //-----------MPU6050---------
 // MPU object creation
 MPU6050 mpu;
-// Set up array where MPU data is stored
+// Set up arrays where MPU data is stored
 uint8_t fifoBuffer[64]; 
 Quaternion q;           
 VectorFloat gravity;    
