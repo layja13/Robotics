@@ -1,2 +1,2 @@
 # Robotics
-Robotics using embedded systems 
+Robotics using embedded systems and electronics
