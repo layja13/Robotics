@@ -1,3 +1,5 @@
+#This code allows you to rotate a Servo once a human is detected, simulating an automated gate
+
 #include <Servo.h>
 
 byte sensorpir=2;
