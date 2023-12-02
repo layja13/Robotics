@@ -1,3 +1,5 @@
+# This code allows you to control a Servomotor in proportion to the angle of a Potenciometer
+
 int pot=A5;
 byte m1=9;
 byte m2=10;
